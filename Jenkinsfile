@@ -31,11 +31,6 @@ pipeline {
         }
         stage('Deploy on port') {
             steps {
-                sh 'kubectl apply -f deployment.yaml'
-            }
-        }
-        stage('Deploy on port') {
-            steps {
                 sh 'kubectl expose deployment titanic-app --name=titanic-service --type=LoadBalancer --port 80 --target-port 8000'
             }
         }
