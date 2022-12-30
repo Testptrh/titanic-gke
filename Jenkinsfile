@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy on port') {
             steps {
-                sh 'gcloud container clusters get-credentials titanic-cluster'
+                sh 'gcloud container clusters get-credentials titanic-cluster --zone=europe-west4'
             }
         }
         
