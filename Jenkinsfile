@@ -12,11 +12,32 @@ pipeline {
                 sh 'docker push gcr.io/wave46-mihaiadrian/titanic:cicd'
             } 
         }
-        stage('Deploy on port') {
+        stage('get credentials') {
             steps {
-                sh 'gcloud container clusters get-credentials titanic-cluster --zone=europe-west4'
+                sh 'gcloud container clusters get-credentials titanic-cluster \
+                      --region europe-west4 \
+                      --project wave46-mihaiadrian'
             }
         }
-        
+        stage('apply deployment') {
+            steps {
+                sh 'kubectl apply -f deployment.yaml'
+            }
+        }
+        stage('apply service') {
+            steps {
+                sh 'kubectl apply -f service.yaml'
+            }
+        }
+        stage('Deploy on port') {
+            steps {
+                sh 'kubectl apply -f deployment.yaml'
+            }
+        }
+        stage('Deploy on port') {
+            steps {
+                sh 'kubectl expose deployment titanic-app --name=titanic-service --type=LoadBalancer --port 80 --target-port 8000'
+            }
+        }
     }
 }
