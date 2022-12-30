@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: titanic-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: titanic-app
+  template:
+    metadata:
+      labels:
+        app: titanic-app
+    spec:
+      containers:
+      - name: titanic-app
+        image: gcr.io/wave46-mihaiadrian/titanic:model
+        ports:
+        - containerPort: 8000
+
+

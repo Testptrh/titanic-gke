@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "wave46-mihaiadrian",
+  "private_key_id": "ccefab87f3e233dc296da7b6e46b5203fd018363",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDIerlhurRHjQrO\nOiUggw71cm9XtScvrSPKfVsbZ1sgb8+Z71RqVKowkXIZmUk0tGcnPjDy3zyxXM/H\nDdVBNOPcb8amGij89LKHSBpUUDjJlSNqSx/Sdj7ONLszOn6ib2ZZ+NZRyrxWzwJK\nN1qZhLLGJXk67hlTgg7irfazS8/5lABlyrgQ4/Yt/W1mejmJAWV3a65lQId8pBVY\nwE5L/9fOHlSgDsg8UItduhLwA8+JzzWPm5GL8OFuk8drCQj64nS44dAV0uW5edHd\nglhTueuUUrha8gTXdJ8ONtbZfc/CPmg456Ej6lYKOx9FWnDvhmjiy+UyahGcrET6\nOMtlrXiLAgMBAAECggEADjdttMZDPIOxWkVGfR/uGQe5aS3TQcIOAX3FzsatVqDq\nYHWK6SA1EjNuNO4caKljKAxBkMEcRU0m/gWds5cNklDQdHAmEfIREVJsOfUwyB+H\nhTHrzfmAPXbN0GjIf1PvafGHn5s4PRITwBf2y8Ypa0jpaBcBIsPcf5FrwI35IvvB\nfdeDT58MC4ZMctDsEmHwphnvG2amzd/8rIHz4A2P+ME5QoM5FPJ+YtH3ZsLnxjwg\nWHRaRHCn4OC0q4nc92lIUyt1XmZ7oOHAqkL3nblWv9TkyxHb+FyHupQFucywx/b6\nAFFSauITcZVXMjhIcPxYR4DVeUV9MAI0ZnPWRfl/+QKBgQDkWuN8jw56OJB3gkBa\n+FRZGIDs+oMMlO8Lq2nE9JagnrvlEzN0VUZNQFQWahtHfmMsYFRE1qCi1xOtPYne\n6/MzODNbawcsUxeh9I9bJ9TEJx9z0YgV+4uNBD4k5RGwTyJJXBHQi/Ghq2qdbMAj\nvIp/WqLialOVPbwa0WHQCI8qZQKBgQDgv+wBX+HRywN8b0tN6EVShjF4/s9LThlO\nOBg2+owgdjZmfJ/Qj31tmjvP/yeS4KYYmTCQpmPIL4jf5VQgXtDGjRC9se6RsmmM\no3a2weHBuydQIOpdsvR9cqgn4OvoucCrySnKD3HckVxmrjoymb1SUnUgw4o3GiYi\n1IOnb67wLwKBgQCPPvCLF1ZWlxsQzNU/+5010qg1gCQrBVY69MlBssi2czycw4G4\njTGvjhXxhZgdLgxaLwdNs3FLFS4Ts5HEFDEYRT36L9ZtGKavgrFW1lKixYP2bE84\nsvXkfO/axxNkjQ+OA0Jtlwv5hYU4wZp6EHC02Q9qhpZt/S79h7EbBfOA/QKBgQCn\nxj2MrSHrNazNiFtjth+BwlFOLJFcetmjLXbOG+zdEsH7cc7vpx4P4pIB7EyDdZYo\nSLsbUEquluWLlitd2snpXkcABMK+Grx2U1R8i3FW6LopM9kgx0WCHERxOJOC8J9m\n3c2HXE44RH8A29DwExpkSM/M/IvCJJARcikxpcqm2wKBgChwHhxA12kJ2bs5E7io\nFITZGTMg/mewt2hT1sx/zRytIoJYz3YVuuhBpX/XQw1u5v5AXG5c0SidCWs6b/gh\nN+dnpLGt3cuX5Ujignxwr2x9WzoI0+YeWk6cvcSnZm/auERgcg6CM79jexZMJ6vy\nkrkk4S0fCr1CJBU+8pa9Wf4Y\n-----END PRIVATE KEY-----\n",
+  "client_email": "tensorflow-vertex-sa@wave46-mihaiadrian.iam.gserviceaccount.com",
+  "client_id": "112193122396595818876",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/tensorflow-vertex-sa%40wave46-mihaiadrian.iam.gserviceaccount.com"
+}

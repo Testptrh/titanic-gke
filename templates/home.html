@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Predict Insurance Bill</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='./style.css') }}">
+
+</head>
+
+
+<body>
+<div class="login">
+    <h1>Chance of survival on Titanic</h1>
+    <form action="{{ url_for('predict')}}" method="POST">
+        <input type="text" name="pclass" placeholder="Ticket class" required="required" pattern="[1-3]" title="Just numbers between 1-3" /><br>
+    	<input type="text" name="sex" placeholder="Sex" required="required" title="Only Male or Female"  /><br>
+        <input type="text" name="age" placeholder="Age" required="required" title="Age in years"  /><br>
+        <input type="text" name="fare" placeholder="Ticket price ($)" required="required" title="Price of the ticket"  /><br>
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+<br>
+<br>
+
+</div>
+{{ pred }}
+
+
+
+
+</body>
+</html>

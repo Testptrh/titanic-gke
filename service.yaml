@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: titanic-app
+spec:
+  type: LoadBalancer
+  selector:
+    app: titanic-app
+  ports:
+  - port: 80
+    targetPort: 8000
